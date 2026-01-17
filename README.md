@@ -7,6 +7,9 @@
 
 **SmartLink** is a comprehensive IoT-based home automation solution developed on the **Arduino Mega** platform. The system bridges the gap between hardware sensors and user control, allowing for real-time monitoring and autonomous management of a domestic environment. 
 
+![System Photo](./assets/SmartHome.jpg)
+*Figure 1: SmartLink hardware core featuring sensor integration and automated environmental control logic.*
+
 The firmware manages everything from climate control (heating and ventilation) to smart lighting and safety protocols (automated window closing during rain), all while communicating with an external mobile application via a serial interface.
 
 
