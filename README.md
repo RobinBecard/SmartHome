@@ -1,14 +1,14 @@
-# SmartLink: Integrated Home Automation System
+# SmarHome: Integrated Home Automation System
 
 [![Arduino](https://img.shields.io/badge/Platform-Arduino_Mega-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![C++](https://img.shields.io/badge/Language-C++-00599C?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 
 ## Overview
 
-**SmartLink** is a comprehensive IoT-based home automation solution developed on the **Arduino Mega** platform. The system bridges the gap between hardware sensors and user control, allowing for real-time monitoring and autonomous management of a domestic environment. 
+**SmartHome** is a comprehensive IoT-based home automation solution developed on the **Arduino Mega** platform. The system bridges the gap between hardware sensors and user control, allowing for real-time monitoring and autonomous management of a domestic environment. 
 
 ![System Photo](./assets/SmartHome.jpg)
-*Figure 1: SmartLink hardware core featuring sensor integration and automated environmental control logic.*
+*Figure 1: SmartHome hardware core featuring sensor integration and automated environmental control logic.*
 
 The firmware manages everything from climate control (heating and ventilation) to smart lighting and safety protocols (automated window closing during rain), all while communicating with an external mobile application via a serial interface.
 
@@ -76,7 +76,7 @@ The following byte commands are supported:
 ## Project Structure
 
 ```text
-SmartLink-Home-Automation/
+SmartHome-Home-Automation/
 │
 ├── SmartHome_Firmware/
 │   └── SmartHome_Firmware.ino   # Main logic and state machine
