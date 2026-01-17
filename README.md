@@ -76,12 +76,17 @@ The following byte commands are supported:
 ## Project Structure
 
 ```text
-SmartHome-Home-Automation/
+SmartHome/
 │
-├── SmartHome_Firmware/
-│   └── SmartHome_Firmware.ino   # Main logic and state machine
+├── SmartHome_Control_System.ino   
+├── config.h                       
 │
-├── Assets/
-│   └── circuit_diagram.png      # Hardware wiring schematics
+├── sensors.h                     
+├── sensors.cpp                    
 │
-└── README.md
+├── actuators.h                    
+├── actuators.cpp                  
+│
+├── README.md                     
+└── assets/
+    └── SmartHome.jpg              
